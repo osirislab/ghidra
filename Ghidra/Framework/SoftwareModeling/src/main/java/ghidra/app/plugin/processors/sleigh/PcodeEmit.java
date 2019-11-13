@@ -194,7 +194,7 @@ public abstract class PcodeEmit {
 	 * <li>internal label used to branch beyond last pcode op</li>
 	 * </ul>
 	 */
-	void resolveFinalFallthrough() {
+	public void resolveFinalFallthrough() {
 		try {
 			if (fallOverride == null || fallOverride.equals(getStartAddress().add(fallOffset))) {
 				return;

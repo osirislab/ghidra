@@ -96,7 +96,7 @@ public class SleighLanguage implements Language {
 	private LinkedHashMap<String, String> properties = new LinkedHashMap<>();
 	SortedMap<String, ManualEntry> manual = null;
 
-	SleighLanguage(SleighLanguageDescription description)
+	public SleighLanguage(SleighLanguageDescription description)
 			throws SAXException, IOException, UnknownInstructionException {
 		initialize(description);
 	}

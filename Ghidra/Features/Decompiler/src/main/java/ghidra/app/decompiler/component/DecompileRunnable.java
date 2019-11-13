@@ -37,7 +37,6 @@ class DecompileRunnable implements SwingRunnable {
 	private ViewerPosition viewerPosition;
 
 	private final DecompilerManager decompilerManager;
-
 	/**
 	 * Constructor for a scheduled Decompile runnable
 	 * @param program the program containing the function to be decompiled

@@ -69,3 +69,11 @@ Release
 */*/*/*/src-gen
 */*/*/*/model/generated
 */*/*/*/test-bin
+
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore gradle generated files
+gradlew
+gradlew.bat
+gradle/wrapper/

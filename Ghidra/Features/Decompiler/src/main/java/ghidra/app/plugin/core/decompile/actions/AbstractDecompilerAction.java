@@ -34,7 +34,7 @@ import ghidra.app.plugin.core.decompile.DecompilerActionContext;
  */
 public abstract class AbstractDecompilerAction extends DockingAction {
 
-	AbstractDecompilerAction(String name) {
+	public AbstractDecompilerAction(String name) {
 		super(name, DecompilePlugin.class.getSimpleName());
 	}
 
